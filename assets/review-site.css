@@ -136,6 +136,19 @@ h1 {
   font-size: 13px;
 }
 
+.rejection-reason {
+  margin: 8px 0 0 64px;
+  padding: 10px 12px;
+  border-left: 3px solid #d92d20;
+  background: var(--red-soft);
+  color: #7a271a;
+  font-size: 13px;
+}
+
+.rejection-reason span {
+  font-weight: 700;
+}
+
 @media (max-width: 720px) {
   .site-header {
     display: block;
@@ -156,6 +169,10 @@ h1 {
   }
 
   .article-meta {
+    margin-left: 58px;
+  }
+
+  .rejection-reason {
     margin-left: 58px;
   }
 }
